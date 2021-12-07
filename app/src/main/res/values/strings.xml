@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SecondClass</string>
+    <string name="a_3104">数据结构A</string>
+    <string name="class_3301">3301</string>
+    <string name="first">第一个</string>
+    <string name="second">第二个</string>
+    <string name="three">第三个</string>
+    <string name="login">登录</string>
+    <string name="welcome">你好鸭，欢迎来到掌上重邮~</string>
+    <string name="account_require">请输入学号</string>
+    <string name="password_require">统一认证码后六位/19级及以前为身份证后六位</string>
+    <string name="agreement_content">释怀一些吧，吹响苍穹和尘埃，今天的不开心就到此为止吧。</string>
+    <string name="policy">用户协议</string>
+    <string name="privacy">隐私与政策</string>
+    <string name="policy_content">雨会停，天会晴，没什么永远糟糕透顶。漫长的银河里后会有期，大雾四处起，我在无人处爱你像是漂浮在宇宙的星星。</string>
+</resources>

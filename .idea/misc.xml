@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable-v24/txt_radiuborder.xml" value="0.31666666666666665" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable-v24/txt_radiuborder1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable/ic__.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable/ic___.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable/ic_login1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/drawable/ic_password1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/activity_begin.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/activity_level3_main.xml" value="0.22870370370370371" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/activity_level4.xml" value="0.1" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/activity_level5.xml" value="0.37910699241786017" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/dialog_round.xml" value="0.33" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/fragment_blank.xml" value="0.34692028985507245" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/item.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/item_level4_title.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/item_level4_type.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level1_layout.xml" value="0.30052083333333335" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level2_layout.xml" value="0.2984375" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level3_layout.xml" value="0.22" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level5_agreement.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level5_policy.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/level_agreement.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/list_view.xml" value="0.34692028985507245" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/main.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/one.xml" value="0.25104166666666666" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/page_item.xml" value="0.2957427536231884" />
+        <entry key="..\:/Android Studio/Project/SecondClass/app/src/main/res/layout/two.xml" value="0.25104166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level5"
+    android:backgroundTint="@color/background">
+
+    <LinearLayout
+        android:layout_width="226dp"
+        android:layout_height="109dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="112dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:text="@string/welcome"
+            android:textSize="17.5sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_account"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/account_require"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:textColor="@color/text">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:outlineAmbientShadowColor="@color/black" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/password_require"
+                android:maxLines="1"
+                android:textSize="15sp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/lottieAnimationView"-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_fileName="hello-world.json"-->
+<!--                app:lottie_imageAssetsFolder="images"-->
+<!--                app:lottie_loop="true"-->
+<!--                app:lottie_rawRes="@raw/lottie"-->
+<!--                android:layout_marginLeft="5dp"/>-->
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="35dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/stringBuild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同意《用户协议》和《隐私权政策》"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#4841E2"
+        android:text="@string/login"
+        android:textSize="20sp"
+        app:cornerRadius="50sp"
+        android:id="@+id/Login_button"
+        app:layout_constraintBottom_toTopOf="@+id/stringBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/stringBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有学号么？游客模式吧"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+</androidx.constraintlayout.widget.ConstraintLayout>
